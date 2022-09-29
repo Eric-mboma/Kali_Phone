@@ -1,0 +1,37 @@
+#!/bin/bash
+echo  "======================================================================
+******Bienvenue dans l'installation de kali pour Smartphone Android******
+======================================================================
+#########################################################################
+#                                                                       #
+#                                                                       #
+#                                                                       #
+# Author:by MBOMA KAKESE Eric                                           #
+# mbomaerick401@gmail.com                                               #                                                                    #
+# https://github.com/Eric-mboma                                         #
+# https://gitlab.com/mbomaerick401                                      #
+#                                                                       #
+#                     UNIVERSITE DE KINSHSA                             #
+#                     FACULTE DES SCIENCES                              #
+#        MENTION MATHEMATIQUES, STATISTIQUE, INFORMATIQUE               #
+#                                                                       #
+#                                                                       #
+#                                                                       #
+#########################################################################"
+
+function dependance {
+echo ""
+read -p "Appuyer sur o pour installer Kali, n pour pour quitter !!! [o/n] (connexion requise) : " dep
+
+if [ "$dep" = "o" ];then
+apt update   
+apt upgrade
+apt install wget
+apt wget -O install-nethunter-termux https://offs.ec/2MceZWr
+else
+echo "A Bientôt !"
+fi
+}
+
+
+dependance
