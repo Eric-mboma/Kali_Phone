@@ -9,7 +9,7 @@
 
 
 Au cas contraire, veuillez l'installer : sudo apt-get install git-all
- 1.3) En suite telecharger le programme d'installation de Unikin_Pack sur github en faisant : https://github.com/Eric-mboma/Kali_Phone/
+ 1.3) En suite telecharger le programme d'installation de Unikin_Pack sur github en faisant : git clone https://github.com/Eric-mboma/Kali_Phone/
  1.4) Dezippé le et attribuer le droit d’exécution dans notre script càd : chmod +x Kali_Phone
  1.5) En fin veuillez-vous positionner dans le dossier où se trouve le script, puis lancer le script via : ./Kali_Phone
  
