@@ -1,4 +1,4 @@
-# -Kali_Phone
+# Kali_Phone
 ﻿Avant de lancer le script, rassurer vous que vous aviez git installer sur votre pc c_à_d : 
 1.1) Ouvrez votre terminal
  1.2) Ecrivez sur votre terminal : git --version 
