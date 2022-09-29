@@ -3,7 +3,9 @@
 1.1) Ouvrez votre terminal
  1.2) Ecrivez sur votre terminal : git --version 
 , Si git est installer vous verrez le message suivant  comme dans notre cas :
-![image](https://user-images.githubusercontent.com/61586453/175131592-42070577-a518-4f0c-a488-cb7ee72f2334.png)
+![image](https://user-images.githubusercontent.com/61586453/193104039-83829b0c-d9d3-4878-b3f2-f814b6ea63eb.png)
+
+
 
 
 Au cas contraire, veuillez l'installer : sudo apt-get install git-all
